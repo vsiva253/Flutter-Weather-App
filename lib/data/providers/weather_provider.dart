@@ -35,7 +35,8 @@ class WeatherProvider extends ChangeNotifier {
       _weather = weather;
       // Add to recent searches on success
     } catch (e) {
-      SnackBar(content: Text(e.toString()));
+      print(e.toString());
+      error = e.toString();
     } finally {
       _isLoading = false;
       notifyListeners();
