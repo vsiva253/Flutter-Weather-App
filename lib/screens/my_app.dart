@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../data/providers/weather_provider.dart';
-import '../data/widgets/search_bar_widget.dart';
+import '../widgets/search_bar_widget.dart';
 
 class MyApp extends StatelessWidget {
   @override

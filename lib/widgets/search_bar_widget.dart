@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../providers/weather_provider.dart';
+import '../data/providers/weather_provider.dart';
 
 class SearchBarWidget extends StatelessWidget {
   final TextEditingController _textController = TextEditingController();
